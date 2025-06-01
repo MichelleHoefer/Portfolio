@@ -29,7 +29,7 @@ h1 {
   font-size: 96px;
 }
 h2 {
-  font-size: 48px;
+  font-size: 36px;
 }
 h3 {
   font-size: 24px;
@@ -99,4 +99,24 @@ p {
   background-color: var(--tertiary-color);
   color: var(--primary-color);
   box-shadow: var(--box-shadow);
+}
+#about-me-header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--tertiary-color);
+  padding: 20px 15px;
+  border-radius: 4px;
+  margin: 20px;
+  font-style: italic;
+  color: var(--bold-color);
+}
+#contact-me-header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--tertiary-color);
+  padding: 20px 15px;
+  border-radius: 4px;
+  margin: 20px;
+  font-style: normal;
+  color: var(--header-color);
 }
