@@ -120,3 +120,11 @@ p {
   font-style: normal;
   color: var(--header-color);
 }
+footer a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
